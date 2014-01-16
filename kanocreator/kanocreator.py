@@ -1,8 +1,7 @@
 import sys
-
-from PyQt5.QtCore import *
+from PyQt5.QtCore import QUrl
 from PyQt5.QtWidgets import QApplication
-from PyQt5.QtQml import *
+from PyQt5.QtQml import qmlRegisterType
 from PyQt5.QtQuick import QQuickView
 from command import Command
 
